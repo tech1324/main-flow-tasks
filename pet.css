@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:burlywood;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100vh;
+
+}
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 0;
+    left: 0;
+    background-color:forestgreen;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
+    z-index: 1000;
+    position: fixed;
+
+}
+section nav.logo img{
+    width: 70px;
+    cursor: pointer;
+    margin: 10px;
+   
+}
+section nav ul{
+    list-style: none;
+    margin-left: 200px;
+
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+    color: black;
+}
+section nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition:color 0.1s ease;
+}
+section nav ul li a:hover{
+    text-decoration: underline;
+    color:chocolate
+}
+
+
+.cover{
+    width: 100%;
+    height: 500px;
+}
+.streeties{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.adopt-button{
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    position: absolute;
+    transition: 0.3sec ease;
+    left: 50%;
+    font-size:20px ;
+    bottom: 40%;
+    z-index: 2;
+    text-decoration: none;
+}
+.adopt-button:hover{
+    background-color:chocolate;
+}
+.heading{
+    margin-top: 20px; 
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.p{
+    font-size: 50px;
+}
+body{
+    display: flex;
+    background:linear-gradient(to bottom,#83a4d4, #b6fbff);
+    justify-content: center;
+    min-height:100vh;
+    align-items: center;
+    color: black;
+    margin: 0;
+}
+.login,sign-up main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+.form-box {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40x;
+}
+input{
+    width: 70%;
+    padding:15px ;
+    background: #eee;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+    padding: 15px;
+    background: #83a4d4;
+    width: 70%;
+    border: none;
+    border-radius: 4px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: white;
+    transition: 0.2s;
+    font-size: 20px;
+}
+button:hover{
+    background:#7492be ;
+
+}
+p{
+    text-align: center;
+    margin-bottom:10px;
+    font-size: 15px;
+}
+p a{
+    color: #83a4d4;
+    text-decoration: none;
+}
+p a:hover{
+    color :#7492be;
+    text-decoration: underline;
+}
+
+.form-box.active {
+    display: block;
+}
